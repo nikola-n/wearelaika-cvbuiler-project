@@ -1,0 +1,84 @@
+.imgEdit {
+    width:100%;
+}
+.item, .item.active {
+    width: 100%;
+}
+.btn-3 {
+	background-color:#f3f3f3;
+	color:#8200d8; 
+	font-weight:bolder;
+	padding:30px 30px 30px 30px;
+	font-size:1.1em;
+	box-shadow: 1px 1px 5px 1px rgb(155, 155, 155);
+	width: 23%;
+	margin-left:2%;
+}
+.btn-4{
+	background-color:#8200d8;
+	color:#f3f3f3; 
+	font-weight:bolder;
+	font-size:1.1em;
+	padding:30px 10px 30px 10px;
+	box-shadow: 1px 1px 5px 1px rgb(155, 155, 155);
+	width: 6%;
+	margin-left:17%;
+}
+.btn-5 {
+	background-color:#8200d8;
+	color:#f3f3f3; 
+	font-weight:bolder;
+	font-size:1.1em;
+	padding:15px 10px 15px 10px;
+	box-shadow: 1px 1px 5px 1px rgb(155, 155, 155);
+	width: 50%;
+	margin-left: 89%;
+    margin-top: 97%;
+}
+.active {
+	background-color:#8200d8;
+	color:#f3f3f3; 
+}
+.border-1 {
+	border:1px solid rgb(185, 185, 185);
+	box-shadow: 1px 1px 8px 3px rgb(155, 155, 155);
+	height: 1000px;
+	margin-top:1%;
+	padding-top:2%;
+    margin-bottom: 3%;
+    background: white;
+}
+.footerBrain {
+	height: 10vh;
+	background-color: #e4f839;	
+}
+.footerBrain>p{
+	color:white;
+	font-size: bold;
+	padding-top:4%;
+}
+.footerLaika {
+	height: 10vh;
+	background-color:#9900ff;
+}
+.footerLaika >p {
+	color:white;
+	font-weight: bold;
+	padding-top:4%;
+}
+.footerLaika >p> button, .footerBrain>p>button {
+	background-color: black;
+	border:none;
+	margin-left:10%;
+	padding:10px 60px;
+	box-shadow: 1px 1px 10px 1px rgb(155, 155, 155);
+}
+.footerLaika >p> button> a, .footerBrain >p> button> a {
+	color:white;
+	font-size:0.8em;
+	text-decoration: none;
+}
+
+.carousel-control:focus, .carousel-control.left, .carousel-control:hover, .carousel-control.right {
+    background: none;
+}

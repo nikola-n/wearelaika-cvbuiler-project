@@ -1,0 +1,6 @@
+{
+    "require": {
+        "ext-gd": "*",
+        "tecnickcom/tcpdf": "^6.3"
+    }
+}

@@ -1,0 +1,241 @@
+.btn-3 {
+	background-color:#f3f3f3;
+	color:#8200d8; 
+	font-weight:bolder;
+	padding:30px 30px 30px 30px;
+	font-size:1.1em;
+	box-shadow: 1px 1px 5px 1px rgb(155, 155, 155);
+	width: 23%;
+	margin-left:2%;
+}
+.btn-4{
+	background-color:#8200d8;
+	color:#f3f3f3; 
+	font-weight:bolder;
+	font-size:1.1em;
+	padding:30px 10px 30px 10px;
+	box-shadow: 1px 1px 5px 1px rgb(155, 155, 155);
+	width: 6%;
+	margin-left:17%;
+}
+
+.active {
+	background-color:#8200d8;
+	color:#f3f3f3; 
+}
+.border-1 {
+	border:1px solid rgb(185, 185, 185);
+	box-shadow: 1px 1px 8px 3px rgb(155, 155, 155);
+	height: 1750px;
+	margin-top:1%;
+	padding-top:2%;
+    margin-bottom: 3%;
+    background: white;
+}
+.footerBrain {
+	height: 10vh;
+	background-color: #e4f839;	
+}
+.footerBrain>p{
+	color:white;
+	font-size: bold;
+	padding-top:4%;
+}
+.footerLaika {
+	height: 10vh;
+	background-color:#9900ff;
+}
+.footerLaika>p {
+	color:white;
+	font-weight: bold;
+	padding-top:4%;
+}
+.footerLaika >p> button, .footerBrain>p>button {
+	background-color: black;
+	border:none;
+	margin-left:10%;
+	padding:10px 60px;
+	box-shadow: 1px 1px 10px 1px rgb(155, 155, 155);
+}
+.footerLaika >p> button> a, .footerBrain >p> button> a {
+	color:white;
+	font-size:0.8em;
+	text-decoration: none;
+}
+input {
+	border:none;
+	overflow: visible;
+	width: 100%;
+}
+textarea {
+	border:none;
+	overflow: visible;
+	width: 100%;
+	border-color: transparent;
+	background: transparent;
+	resize:none;
+}
+.hr {
+	display: flex;
+    background-color: #1d909a;
+    color: white;
+	width:80%;
+	font-size: 1.1em;
+	padding-top:1%;
+	padding-bottom:1%;
+	margin-top:2%;
+	padding-left:21%;
+}
+.name {
+	font-size:2.4em;
+	font-weight: bold;
+}
+.name::placeholder {
+	color:black;
+}
+.profession {
+	font-size:1.6em; 
+    color:#53a5ac;
+}
+.profession::placeholder{
+    color:#53a5ac;
+}
+.email::placeholder, .phone::placeholder {
+    color:white;
+}
+.dataImg {
+	height: 170px;
+	width: 210px;
+}
+.sameTextarea {
+	color:black;
+	font-size:1.2em;
+}
+.sameTextarea::placeholder {
+	color:black;
+}
+.cirlce {
+    list-style-type: circle;
+    padding:16px;
+    color:#4fa3aa;
+}
+.spanColor{
+    color: black;
+}
+.founder::placeholder {
+	color:black;
+}
+.founder {
+	font-weight: bold;
+	font-size:1.5em;
+}
+.expl::placeholder {
+	color:black;
+}
+.expl {
+	font-size:1.5em;
+}
+.subTitle1 {
+    color:#3b98a3;
+}
+.date::placeholder, .town::placeholder,.accompl::placeholder {
+	font-style: italic;
+	color:#4fa3aa;
+}
+.date,.town,.accompl{
+	color:#4fa3aa;
+}
+.li-style {
+    list-style-type: circle;
+    width: 12px;
+	color:#4fa3aa;
+    padding: 0px;
+    margin: 0px;
+}
+.line {
+    margin-top: 4%;
+    border: 1px solid #4fa3aa;
+    width:1px;
+}
+.btn-style {
+	background-color:#1d909a;
+	color:white;
+	margin-left: 2%;
+	margin-bottom: 3%;
+	font-size:1.2em;
+}
+.cert1::placeholder {
+    color:#4fa3aa;
+}
+.btn-5 {
+	background-color:#8200d8;
+	color:#f3f3f3; 
+	font-weight:bolder;
+	font-size:1.1em;
+	padding:15px 10px 15px 10px;
+	box-shadow: 1px 1px 5px 1px rgb(155, 155, 155);
+	width: 50%;
+	margin-left: 90%;
+    margin-top: 141%;
+}
+.remove_field {
+	margin-top:9px;
+}
+.remove_field_job {
+	margin-left:42px;
+}
+
+/* skills */
+
+#skillsInput {
+    border-bottom: none !important;
+}
+#app {
+    background: #fff;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1em;
+    border: 2px solid #2FBDAD;
+}
+#app input {
+    outline: none;
+    width: auto;
+   
+    float: left;
+    padding: 8px;
+    background: none;
+}
+#app::before {
+    content: '';
+    display: table;
+}
+#app::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.tag {
+    border-radius: 3px;
+    background: #2FBDAD;
+    color: white;
+    float: left;
+    margin: 3px;
+    padding: 4px;
+    font-size: 1em;
+    vertical-align: middle;
+  
+}
+.tag a {
+    color: white;
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 5px;
+}
+.tag span {
+    padding-right: 10px;
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

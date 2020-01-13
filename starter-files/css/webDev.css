@@ -1,0 +1,261 @@
+/*page3*/
+.btn-3 {
+	background-color:#f3f3f3;
+	color:#8200d8; 
+	font-weight:bolder;
+	padding:30px 30px 30px 30px;
+	font-size:1.1em;
+	box-shadow: 1px 1px 5px 1px rgb(155, 155, 155);
+	width: 23%;
+	margin-left:2%;
+}
+.btn-4{
+	background-color:#8200d8;
+	color:#f3f3f3; 
+	font-weight:bolder;
+	font-size:1.1em;
+	padding:30px 10px 30px 10px;
+	box-shadow: 1px 1px 5px 1px rgb(155, 155, 155);
+	width: 6%;
+	margin-left:17%;
+}
+
+.active {
+	background-color:#8200d8;
+	color:#f3f3f3; 
+}
+.border-1 {
+	border:1px solid rgb(185, 185, 185);
+	box-shadow: 1px 1px 8px 3px rgb(155, 155, 155);
+	height: 2200px;
+	margin-top:1%;
+	padding-top:2%;
+    margin-bottom: 3%;
+    background: white;
+}
+.footerBrain {
+	height: 10vh;
+	background-color: #e4f839;	
+}
+.footerBrain>p{
+	color:white;
+	font-size: bold;
+	padding-top:4%;
+}
+.footerLaika {
+	height: 10vh;
+	background-color:#9900ff;
+}
+.footerLaika>p {
+	color:white;
+	font-weight: bold;
+	padding-top:4%;
+}
+.footerLaika >p> button, .footerBrain>p>button {
+	background-color: black;
+	border:none;
+	margin-left:10%;
+	padding:10px 60px;
+	box-shadow: 1px 1px 10px 1px rgb(155, 155, 155);
+}
+.footerLaika >p> button> a, .footerBrain >p> button> a {
+	color:white;
+	font-size:0.8em;
+	text-decoration: none;
+}
+
+.border {
+	border:1px solid red;
+	height: 30vh;
+}
+
+.square {
+	background-color: #364456;
+	width: 30px;
+	height: 45px;
+	margin-left:1%;
+}
+/*inputs style*/
+
+input {
+	border:none;
+	overflow: visible;
+	width: 100%;
+}
+textarea {
+	border:none;
+	overflow: visible;
+	width: 100%;
+	border-color: transparent;
+	background: transparent;
+	resize:none;
+}
+
+#name::placeholder{
+	color:#2d3641;
+}
+#name {
+	font-size:2.3em;
+}
+#profession::placeholder{
+ 	color: #00d2c3;
+}
+#profession {
+	overflow: visible;
+	font-size:1.2em;
+	height: 40px;
+	color: #00d2c3;
+}
+#paragraph::placeholder {
+	color: black;
+}
+.sameTextarea {
+	color:black;
+	font-size:1.2em;
+}
+.sameTextarea::placeholder {
+	color:black;
+}
+.elon, #blah {
+	border-radius: 100%;
+	height: 220px;
+	width: 270px;
+	border:2px solid blue;
+}
+
+.square-1 {
+	background-color: #00d2c3;
+	width: 15px;
+	height: 15px;
+	margin-top:4%;
+	margin-right: 1%;
+}
+.square-2 {
+	background-color: #00d2c3;
+	width: 30px;
+	height: 45px;
+	margin-left:1%;
+	margin-top:2%;
+}
+.founder::placeholder {
+	color:black;
+}
+.founder {
+	font-weight: bold;
+	font-size:1.5em;
+}
+.expl::placeholder {
+	color:black;
+}
+.expl {
+	font-size:1.5em;
+}
+.date::placeholder, .town::placeholder,.accompl::placeholder {
+	font-style: italic;
+	color:#00d2c3;
+}
+.date, .town, .accompl {
+	color:#00d2c3;
+}
+.wExp::placeholder {
+	padding-top:3%;
+}
+.btn-style {
+	background-color: #2cbbad;
+	color:white;
+	margin-left: 2%;
+	margin-bottom: 3%;
+	font-size:1.2em;
+}
+.achievement1::placeholder {
+	color:black;
+	font-size:1.2em;
+}
+.comment::placeholder {
+	font-size: 1.2em;
+}
+.btn-5 {
+	background-color:#8200d8;
+	color:#f3f3f3; 
+	font-weight:bolder;
+	font-size:1.1em;
+	padding:15px 10px 15px 10px;
+	box-shadow: 1px 1px 5px 1px rgb(155, 155, 155);
+	width: 50%;
+	margin-left: 70%;
+    margin-top: 77%;
+}
+hr {
+	margin-top:0%;
+	margin-bottom:1%;
+}
+.fonts {
+	margin-bottom: 10%;
+	font-size: 1.2em;
+}
+.icon-color {
+	color: #2fbdad;
+	font-size: 2.0em;
+}
+
+.tag-container {
+    display: none;
+}
+#skillsInput {
+    border-bottom: none !important;
+}
+#app {
+    background: #fff;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1em;
+    border: 2px solid #2FBDAD;
+}
+#app input {
+    outline: none;
+    width: auto;
+   
+    float: left;
+    padding: 8px;
+    background: none;
+}
+#app::before {
+    content: '';
+    display: table;
+}
+#app::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.tag {
+    border-radius: 3px;
+    background: #2FBDAD;
+    color: white;
+    float: left;
+    margin: 3px;
+    padding: 4px;
+    font-size: 1em;
+    vertical-align: middle;
+  
+}
+.tag a {
+    color: white;
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 5px;
+}
+.tag span {
+    padding-right: 10px;
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.glyphicon-remove:before {
+    content: "\e014";
+    position: relative;
+    top: 24px;
+}
